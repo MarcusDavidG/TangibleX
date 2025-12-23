@@ -1,10 +1,10 @@
-# TangibleX 🌐
+# TangibleX 
 
 **RealFi Infrastructure Platform on Mantle Network**
 
 TangibleX is a comprehensive RealFi (Real-World Finance) platform built on Mantle Network that enables compliant tokenization of real-world cashflow assets. The platform leverages AI-powered risk analysis, automated oracles, and yield distribution to create a seamless bridge between traditional finance and DeFi.
 
-## 🏗️ Architecture
+##  Architecture
 
 TangibleX consists of three main components:
 
@@ -28,7 +28,7 @@ TangibleX consists of three main components:
 - **KYC Flow**: Document upload and verification
 - **Admin Panel**: Asset and user management
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js v18+
@@ -86,7 +86,7 @@ ORACLE_UPDATER_ADDRESS=
 YIELD_VAULT_ADDRESS=
 ```
 
-## 📝 Development
+##  Development
 
 ### Running the Contracts
 
@@ -129,7 +129,7 @@ npm run dev
 npm run build
 ```
 
-## 🔧 Smart Contract Deployment
+##  Smart Contract Deployment
 
 ### Step 1: Get Testnet MNT
 
@@ -152,7 +152,7 @@ Copy the deployed contract addresses from the console output and add them to you
 forge verify-contract <CONTRACT_ADDRESS> <CONTRACT_NAME> --chain mantle-sepolia --etherscan-api-key $MANTLE_EXPLORER_API_KEY
 ```
 
-## 📊 Key Features
+##  Key Features
 
 ### Compliant Asset Tokenization
 - KYC-gated transfers ensure regulatory compliance
@@ -174,7 +174,7 @@ forge verify-contract <CONTRACT_ADDRESS> <CONTRACT_NAME> --chain mantle-sepolia 
 - Real-time asset data from Mantle Network
 - Responsive design with TailwindCSS
 
-## 🏛️ Smart Contract Architecture
+##  Smart Contract Architecture
 
 ```
 ┌─────────────────┐
@@ -192,7 +192,7 @@ forge verify-contract <CONTRACT_ADDRESS> <CONTRACT_NAME> --chain mantle-sepolia 
 └─────────────────┘     └──────────────────┘
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### Assets
 - `GET /api/assets` - List all active assets
@@ -211,7 +211,7 @@ forge verify-contract <CONTRACT_ADDRESS> <CONTRACT_NAME> --chain mantle-sepolia 
 - `GET /api/yield/claimable/:assetId/:address` - Get claimable yield
 - `GET /api/yield/pool/:assetId` - Get yield pool info
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run contract tests
@@ -227,7 +227,7 @@ cd frontend
 npm test
 ```
 
-## 📦 Deployment
+##  Deployment
 
 ### Backend Deployment (Render/Railway)
 
@@ -244,7 +244,7 @@ npm test
 4. Add environment variables
 5. Deploy
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - All smart contracts use OpenZeppelin's audited libraries
 - KYC verification required for token transfers
@@ -263,7 +263,7 @@ OracleUpdater: TBD
 YieldVault: TBD
 ```
 
-## 🎯 Roadmap
+##  Roadmap
 
 - [x] Core smart contracts
 - [x] Backend API with AI agents
@@ -274,7 +274,7 @@ YieldVault: TBD
 - [ ] Cross-chain bridging
 - [ ] Mobile app
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -284,22 +284,17 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built for Mantle Network Hackathon
 - Powered by OpenZeppelin contracts
 - UI components inspired by shadcn/ui
 - Oracle infrastructure using Mantle SDK
 
-## 📞 Contact
-
-- Website: [tangiblex.io](https://tangiblex.io) (TBD)
-- Twitter: [@TangibleX](https://twitter.com/TangibleX) (TBD)
-- Discord: [Join our community](https://discord.gg/tangiblex) (TBD)
 
 ---
 
